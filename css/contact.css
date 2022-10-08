@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700");
-#contact {
+#skills {
   background-color: #222222;
   background-image: url("../img/contactbg.png");
   background-position: center;
@@ -10,14 +10,14 @@
   padding-bottom: 5%;
 }
 
-#contact h2 {
+#skills h2 {
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
   padding-top: 40px;
   color: #00b894;
 }
 
-#contact h3 {
+#skills h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.2em;
@@ -25,34 +25,34 @@
   color: white;
 }
 
-#contact .form-group {
+#skills .form-group {
   margin-bottom: 25px;
 }
 
-#contact .form-group input,
-#contact .form-group textarea {
+#skills .form-group input,
+#skills .form-group textarea {
   padding: 20px;
 }
 
-#contact .form-group input.form-control {
+#skills .form-group input.form-control {
   height: auto;
 }
 
-#contact .form-group textarea.form-control {
+#skills .form-group textarea.form-control {
   height: 236px;
 }
 
-#contact .form-control:focus {
+#skills .form-control:focus {
   border-color: #fed136;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#contact .text-danger {
+#skills .text-danger {
   color: #e74c3c;
 }
 
-#contact .btn-xl {
+#skills .btn-xl {
   color: white;
   background-color: transparent;
   border-color: skyblue;
@@ -65,30 +65,30 @@
   transition: all 0.3s ease-in;
 }
 
-#contact .btn-xl:hover,
-#contact .btn-xl:focus,
-#contact .btn-xl:active,
-#contact .btn-xl.active,
-#contact .open .dropdown-toggle.btn-xl {
+#skills .btn-xl:hover,
+#skills .btn-xl:focus,
+#skills .btn-xl:active,
+#skills .btn-xl.active,
+#skills .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #00b894;
   border-color: white;
 }
 
-#contact .btn-xl:active,
-#contact .btn-xl.active,
-#contact .open .dropdown-toggle.btn-xl {
+#skills .btn-xl:active,
+#skills .btn-xl.active,
+#skills .open .dropdown-toggle.btn-xl {
   background-image: none;
 }
 
-#contact ::-webkit-input-placeholder {
+#skills ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 
-#contact :-moz-placeholder {
+#skills :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -96,7 +96,7 @@
   color: #eeeeee;
 }
 
-#contact ::-moz-placeholder {
+#skills ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -104,7 +104,7 @@
   color: #eeeeee;
 }
 
-#contact :-ms-input-placeholder {
+#skills :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;

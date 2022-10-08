@@ -3,6 +3,7 @@
   background-image: url("../img/bg-stats.jpg");
   padding: 0%;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 #counter .counterDiv {
