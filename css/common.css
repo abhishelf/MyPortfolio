@@ -1,0 +1,36 @@
+.heading {
+  position: relative;
+  display: inline-block;
+  font-family: "Philosopher", sans-serif;
+  color: #232323;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: -0.1rem;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  padding-bottom: 5px;
+  margin-bottom: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.heading:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 100%;
+  left: 50%;
+  border-top: 2px solid skyblue;
+  z-index: 1;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 100%;
+  left: 50%;
+  border-top: 2px solid gray;
+}

@@ -1,0 +1,50 @@
+#about {
+  width: 100%;
+  min-height: 350px;
+  background: #ffffff;
+}
+
+#about .container .row {
+  min-height: 350px;
+  width: 100%;
+}
+
+#about .container .row .outBox {
+  min-height: 350px;
+  width: 100%;
+  display: table;
+}
+
+#about .container .row .outBox .innerBox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about .container .row .outBox .innerBox h2:before {
+  width: 20%;
+  margin-left: -10%;
+}
+
+#about .container .row .outBox .innerBox h2:hover:before {
+  width: 30%;
+  margin-left: -15%;
+}
+
+#about .container .row .outBox .innerBox h2:after {
+  width: 30%;
+  margin-left: -15%;
+}
+
+#about .container .row .outBox .innerBox blockquote {
+  border-left: 2px solid #00b894;
+  padding: 1% 0% 1% 5%;
+  color: #323232;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Muli", sans-serif;
+}
+
+.selfImage {
+  width: 500px;
+  height: 600px;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700");
+footer {
+  padding: 15px 0 0px 0;
+  text-align: center;
+  background: #ffffff;
+}
+
+footer .copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+footer div {
+  width: 100%;
+}
+
+footer div ul {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+}
+
+footer div ul .social-buttons {
+  position: relative;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+footer div ul .social-buttons li {
+  float: right;
+}
+
+footer div ul .social-buttons li a {
+  display: block;
+  background-color: #00b894;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+footer div ul .social-buttons li a:hover,
+footer div ul .social-buttons li a:focus,
+footer div ul .social-buttons li a:active {
+  background-color: #ffa700;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+footer div .quicklinks {
+  margin-bottom: 0;
+}
+
+footer div .quicklinks li {
+  float: right;
+}
+
+footer div .quicklinks li i {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #ffa700;
+}
+
+footer div .quicklinks li:hover i {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #00b894;
+}
+/*# sourceMappingURL=footer.css.map */

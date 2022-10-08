@@ -1,0 +1,107 @@
+#project {
+  min-height: 90%;
+  width: 100%;
+  margin-top: 8%;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+#project h2:before {
+  width: 8%;
+  margin-left: -4%;
+}
+
+#project h2:hover:before {
+  width: 16%;
+  margin-left: -8%;
+}
+
+#project h2:after {
+  width: 16%;
+  margin-left: -8%;
+}
+
+#project .cardItem {
+  padding: 50px 10px;
+  margin: 0px 6px 20px 6px;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  overflow: hidden;
+}
+
+#project .cardItem:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#project .cardItem i {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  vertical-align: middle;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  color: #00b894;
+  line-height: 70px;
+  -webkit-transition: all 1s ease-in 0s;
+  transition: all 1s ease-in 0s;
+}
+
+#project .cardItem h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: black;
+  padding-top: 20px;
+}
+
+#project .cardItem blockquote {
+  font-family: "Muli", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+#project .cardItem:hover i {
+  color: white;
+  -webkit-transition: all 1s ease-in 0s;
+  transition: all 1s ease-in 0s;
+}
+
+#project .cardItem:hover .fa {
+  background-color: #00b894;
+  -webkit-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+#project .cardItem .owl-carousel .owl-dot {
+  color: red;
+  background-color: skyblue;
+}
+
+#project .cardItem:before {
+  content: "";
+  position: absolute;
+  top: 95%;
+  bottom: 0;
+  left: 50%;
+  width: 20%;
+  margin-left: -10%;
+  border-top: 2px solid skyblue;
+  z-index: 3;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+#project .cardItem:hover:before {
+  width: 80%;
+  left: 10%;
+  margin-left: 0%;
+  overflow: hidden;
+}
