@@ -45,6 +45,15 @@
 }
 
 .selfImage {
-  width: 500px;
-  height: 600px;
+  width: 200px;
+  height: 250px;
+  float: left;
+}
+
+.selfImageDiv {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  padding: 12% 0 0 10%;
 }
