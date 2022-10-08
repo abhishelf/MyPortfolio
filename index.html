@@ -22,11 +22,14 @@
 
     <body>
 
+      <div id="preloader">
+        <div id="loader"></div>
+      </div>
+
       <!-- Nav -->
-     <div class="menu-icon">
+    <!--  <div class="menu-icon">
         <nav>
           <ul>
-            <!-- Contact -->
             <li>
               <a href="https://api.whatsapp.com/send?phone=917050316935" target="_blank" style="float:right;">
                 <i class="fa fa-whatsapp img-circle"></i>
@@ -48,7 +51,6 @@
               </a>
             </li>
 
-            <!-- Navigation -->
             <li><a href="#Home"><i class="fa fa-home img-circle"></i></a></li>
             <li><a href="#About"><i class="fa fa-user img-circle"></i></a></li>
             <li><a href="#Projects"><i class="fa fa-code img-circle"></i></a></li>
@@ -57,6 +59,29 @@
             <li><a href="#Skills"><i class="fa fa-pie-chart img-circle"></i></a></li>
           </ul>
         </nav>
+      </div> -->
+
+      <div class="menu-icon">
+        <span class="menu-icon__line menu-icon__line-left"></span>
+        <span class="menu-icon__line"></span>
+        <span class="menu-icon__line menu-icon__line-right"></span>
+      </div>
+      
+      <div class="nav">
+        <div class="nav__content">
+          <div class="container">
+            <div class="row">
+              <ul class="nav__list">
+                <li data-scroll-nav="0" class="nav__list-item col-xs-12"><a href="#intro">Home</a></li>
+                <li data-scroll-nav="1" class="nav__list-item col-xs-12"><a href="#about">About</a></li>
+                <li data-scroll-nav="2" class="nav__list-item col-xs-12"><a href="#project">Projects</a></li>
+                <li data-scroll-nav="3" class="nav__list-item col-xs-12"><a href="#counter">Stats</a></li>
+                <li data-scroll-nav="4" class="nav__list-item col-xs-12"><a href="#timeline">Timeline</a></li>
+                <li data-scroll-nav="6" class="nav__list-item col-xs-12"><a href="#contact">Skills</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Home -->
@@ -517,11 +542,42 @@
       <!-- Footer -->
       <footer>
         <div class="container-fluid">
-          <div class="copyright">
-            <b>Thanks For Visiting!</b>
-            <br>
-            Want to Know More? Please reachout to me.
-            <br>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="copyright">
+                <b>Thanks For Visiting!</b>
+                <br>
+                Want to Know More? Please reachout to me.
+                <br>
+              </div>
+
+              <div>
+                <ul>
+                  <div class="social-buttons wow fadeIn" data-wow-delay="0.s">
+                    <li>
+                    <a href="https://api.whatsapp.com/send?phone=917050316935" target="_blank" style="float:right;">
+                      <i class="fa fa-whatsapp img-circle"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.instagram.com/abhiscout" target="_blank" style="float:right;">
+                      <i class="fa fa-instagram img-circle"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://in.linkedin.com/in/abhiscout" target="_blank" style="float:right;">
+                      <i class="fa fa-linkedin img-circle"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.github.com/abhiscout" target="_blank" style="float:right;">
+                      <i class="fa fa-github img-circle"></i>
+                    </a>
+                  </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
@@ -533,14 +589,6 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
       <!--  Script -->
-      <script>
-        $(window).scroll(function(){
-          if ($(window).scrollTop() > 200) {
-            $("nav").addClass("menu_background")
-          } else {
-            $("nav").removeClass("menu_background")
-          }
-        });
-      </script>
+      <script src="js/style.js"></script>
     </body>
 </html>
